@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         setTimeout(() => {
             notificationElement.classList.remove('show');
-        }, 3000); // Säädetään kauanko ilmoitus näkyy (ms) //
+        }, 2000); // Säädetään kauanko ilmoitus näkyy (ms) //
     }
 
     
