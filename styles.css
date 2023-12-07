@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+  font-family: Lato, Helvetica, sans-serif;
+  }
+
+body {
+  background-image: url("img/bg.png");
+  display: cover;
+  
+}
+
+#peliruutu {
+  display: none;
+}
+
+#notification {
+  display: none;
+  background-color: #f44336;
+  color: white;
+  transition: opacity 0.5s ease-in-out; 
+}
+
+#notification.show {
+  display: block;
+  opacity: 1;
+}
+
+.invisible {
+  display: none;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #cc1306;
+  text-shadow: 1px 1px #ffffff;
+}
+
+
+.dice-image {
+  padding-right: 5px;
+}
+
+.noti {
+  height: 24px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+
