@@ -6,9 +6,9 @@
   }
 
 body {
-  background-image: url("img/bg.png");
-  display: cover;
   
+  display: cover;
+  background-image: radial-gradient(circle at center center, rgb(241, 195, 19),rgb(244, 150, 32),rgb(246, 105, 45),rgb(249, 59, 57),rgb(251, 14, 70));
 }
 
 #peliruutu {
