@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    
+
     let players = [];
     let currentPlayerIndex = 0;
     let currentScore = 0;
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
  
-
+    
     // Event listener sika-nappulalle
     document.getElementById('start-over').addEventListener('click', startOver);
 
